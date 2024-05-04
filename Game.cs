@@ -10,18 +10,18 @@ internal class Game
     int rtotal2;
     string choice;
 
-    die dice1 - new die();
-    die dice2 - new die();
-    die dice3 - new die();
-    die dice4 - new die();
-    die dice5 - new die();
+    Die dice1 - new Die();
+    Die dice2 - new die();
+    Die dice3 - new Die();
+    Die dice4 - new Die();
+    Die dice5 - new Die();
 
     public void  SevensOut()
     {
         while true
         {
-            valued1 = dice1.roll;
-            valued2 = dice2.roll;
+            valued1 = dice1.dice_roll;
+            valued2 = dice2.dice_roll;
             total = valued1 + valued2;
             if (total = 7)
             {
