@@ -8,7 +8,7 @@ internal class Game
     int total;
     int rtotal1;
     int rtotal2;
-    string choice;
+
 
     Die dice1 - new Die();
     Die dice2 - new die();
@@ -25,14 +25,14 @@ internal class Game
             total = valued1 + valued2;
             if (total = 7)
             {
-                rtotal1 = +total;
+                rtotal1 = rtotal1+total;
                 break
             }
             elif(valued1 == valued2)
             {
                 total = total*2;
             }
-            rtotal1 = +total;
+            rtotal1 = +rtotal1+total;
         }
         return rtotal1
     }
